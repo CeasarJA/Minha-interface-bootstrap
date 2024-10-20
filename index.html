@@ -8,9 +8,9 @@
     <style>
         .imagem-absoluta {
             position: absolute;
-            top: 500px; /* Distância do topo */
-            left: 80px; /* Distância da esquerda */
-            display: none; /* Oculta a imagem inicialmente */
+            top: 500px;
+            left: 80px;
+            display: none;
         }
     </style>
 </head>
@@ -40,12 +40,25 @@
             </div>
         </div>
 
+        <p>Se não tem conhecimento do seu CEP</p>
+        <p>Clique aqui</p>
+        
+        <!-- Botão de redirecionamento atualizado -->
+        <button class="btn btn-secondary" onclick="irParaSuporte()">
+            Suporte
+        </button>
+
         <!-- Imagem que será exibida após a consulta -->
         <img src="Vault_Boy_artwork.png" alt="Imagem relacionada ao CEP" class="imagem-absoluta" id="imagemExibida" width="300" height="200">
 
     </div>
 
+    <script>
+        function irParaSuporte() {
+            window.location.assign('https://buscacepinter.correios.com.br/app/endereco/index.php');
+        }
+    </script>
+
     <script src="script.js"></script>
-    
 </body>
 </html>
