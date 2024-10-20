@@ -1,0 +1,25 @@
+body {
+    background-color: #f7f7fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.form-group input {
+    border: 2px solid #f5f8fc;
+    padding: 10px;
+    border-radius: 5px;
+}s
+
+.btn {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+}
+
+.result-card {
+    background-color: #ffffff;
+    padding: 20
+}
